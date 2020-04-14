@@ -1,16 +1,20 @@
-###**B.Defina y compare diferentes aspectos de la sintaxis que Ud. considere. Ejemplifique.**
+**B.Defina y compare diferentes aspectos de la sintaxis que Ud. considere. Ejemplifique.**
 
 A continuacion vamos a comparar los tipos de sintaxis entre 
 __Python__ y __processing__ utilizando de ejmeplo una iteracion, donde
 se almacena el el resultado de la suma entre los 10 primeros numeros,
 empezando de 1.
 
-```python3.7
+
+
+Ejemplo de for en python
+```python
 suma = 0
 for numero in range(1, 10+1):
   suma += numero
 ```
 
+Ejemplo de for en processing
 ```processing
 int suma = 0;
 for(int numero = 1; numero <= 10; numero++) {
