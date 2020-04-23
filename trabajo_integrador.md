@@ -142,14 +142,14 @@ en subsiguientes líneas de código.
 Manejo de excepciones en python.
 ```python
 try:
-	numero1 = input("Numero 1")
-	numero2 = input("Numero 2")
+  numero1 = input("Numero 1")
+  numero2 = input("Numero 2")
   division = numero1 % numero2
-	print(f"Resultado de dividir {numero1} % {numero2} es {division}")
+  print(f"Resultado de dividir {numero1} % {numero2} es {division}")
 except ZeroDivisionError:
-	print("Division por cero erronea")
+  print("Division por cero erronea")
 finally:
-	print("finalizó el programa")
+  print("finalizó el programa")
 ```
 	
 En Python son construidas en base a la característica de la indentación tratada anteriormente.
