@@ -1,5 +1,108 @@
+## Integrantes del grupo
+
+* Franceschi Luis, legajo 4343/2
+* Murguia Imanol Matias, legajo 10770/6
+* Otero Llambay Mariano, legajo 11335/5
+* Solar Jonatan Matias, legajo 8396/0
+
+## Lenguajes asignados
+
+* Python
+* Processing
+
+### Bibliografía utilizada
+
+> https://docs.python.org/3.9/reference/index.html
+> https://entrenamiento-python-basico.readthedocs.io/es/latest/
+> https://nedbatchelder.com/text/names.html
+> https://processing.org/reference/
+> Processing: a programming handbook for visual designers and artists, de Casey Reas y Ben Fry - The MIT Press
+> Programming 101: The How and Why of Programming Revealed Using the Processing Programming Language, de Jeanine Meyer - Apress
+
+
 **A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
 de los lenguajes asignados funcamentando cada uno con ejemplos de código.**
+
+**Processing** es un Framework basado en Java, orientado a diseño grafico,
+asi mismo brinda la posibilidad de crear código basado en otros lenguajes como javascript, python y ruby.
+Sin embargo es importante mencionar que en la misma documentación del framework se hace hincapié a tratar
+de no usar librerías externas al Framework puesto a la posibilidad de romper funcionalidades en el mismo.
+**Python** es un lenguaje de programación de alto nivel, interpretado, de propósito general.
+
+#### Simplicidad y legibilidad.
+Python hace hincapié en la legibilidad del código, se siguen reglas de PEP8 para que todos escribamos de la misma manera.
+El equivalente en processing al "Hello World" es dibujar una línea simple:
+```processing
+line(15, 25, 70, 90);
+```
+
+En python un “Hello World” se vería de esta forma:
+```python
+print(“Hello World”)
+```
+
+Podemos nombrar a Processing como un lenguaje menos simple que Python, al tratarse de un 
+lenguaje con mayor cantidad de palabras reservadas, así como reglas sintácticas a seguir,
+como puede ser el uso de ; para finalizar la línea, llaves de apertura y cierre de bloques,
+la definición del tipo retornado por una función (void en caso de no retornar nada), entre otros.
+
+Processing.
+```processing
+float y = 100;
+void setup() {
+  size(640, 360);  // Size should be the first statement
+  stroke(255);     // Set stroke color to white
+  noLoop();
+  
+  y = height * 0.5;
+}
+
+void draw() { 
+  background(0);   // Set the background to black
+  line(0, y, width, y);  
+  
+  y = y - 1; 
+  if (y < 0) { 
+    y = height; 
+  } 
+} 
+
+void mousePressed() {
+  loop();
+}
+```
+
+Python.
+```python
+y = 100
+
+def setup()
+  size(640, 360)
+  stroke(255)
+  noLoop()
+  y = height * 0.5
+
+def draw()
+  background(0)
+  line(0, y, width, y)
+  y = y - 1 
+
+  if y < 0:
+    y = height
+
+def mousePressed()
+  loop()
+```
+
+
+#### Claridad en los bindings
+ 
+• Confiabilidad
+
+• Soporte
+• Abstracción 
+• Ortogonalidad 
+• Eficiencia
 
 **B. Defina y compare diferentes aspectos de la sintaxis que Ud. considere. Ejemplifique.**
 
