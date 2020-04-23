@@ -12,26 +12,26 @@
 
 ### Bibliografía utilizada
 
-> https://docs.python.org/3.9/reference/index.html
-> https://entrenamiento-python-basico.readthedocs.io/es/latest/
-> https://nedbatchelder.com/text/names.html
-> https://processing.org/reference/
-> Processing: a programming handbook for visual designers and artists, de Casey Reas y Ben Fry - The MIT Press
-> Programming 101: The How and Why of Programming Revealed Using the Processing Programming Language, de Jeanine Meyer - Apress
+* https://docs.python.org/3.9/reference/index.html
+* https://entrenamiento-python-basico.readthedocs.io/es/latest/
+* https://nedbatchelder.com/text/names.html
+* https://processing.org/reference/
+* Processing: a programming handbook for visual designers and artists, de Casey Reas y Ben Fry - The MIT Press
+* Programming 101: The How and Why of Programming Revealed Using the Processing Programming Language, de Jeanine Meyer - Apress
 
 
 **A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
 de los lenguajes asignados funcamentando cada uno con ejemplos de código.**
 
-**Processing** es un Framework basado en Java, orientado a diseño grafico,
+* **Processing** es un Framework basado en Java, orientado a diseño grafico,
 asi mismo brinda la posibilidad de crear código basado en otros lenguajes como javascript, python y ruby.
 Sin embargo es importante mencionar que en la misma documentación del framework se hace hincapié a tratar
 de no usar librerías externas al Framework puesto a la posibilidad de romper funcionalidades en el mismo.
-**Python** es un lenguaje de programación de alto nivel, interpretado, de propósito general.
+* **Python** es un lenguaje de programación de alto nivel, interpretado, de propósito general.
 
 #### Simplicidad y legibilidad.
-Python hace hincapié en la legibilidad del código, se siguen reglas de PEP8 para que todos escribamos de la misma manera.
-El equivalente en processing al "Hello World" es dibujar una línea simple:
+  Python hace hincapié en la legibilidad del código, se siguen reglas de PEP8 para que todos escribamos de la misma manera.
+  El equivalente en processing al "Hello World" es dibujar una línea simple:
 ```processing
 line(15, 25, 70, 90);
 ```
