@@ -79,8 +79,8 @@ for num in lista_numeros:  # linea 4
   else:  # linea 8
     print("Es Impar")  # linea 9
     impares += 1  # linea 10
-print(f"Cantidad de numeros pares: {pares}")  # linea 2
-print(f"Cantidad de numeros impares: {impares}")  # linea 2
+print(f"Cantidad de numeros pares: {pares}")  # linea 11
+print(f"Cantidad de numeros impares: {impares}")  # linea 12
 # FIN PROGRAMA
 ```
 
