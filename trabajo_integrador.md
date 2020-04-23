@@ -138,8 +138,7 @@ una vez que se le asigna un tipo a una variable no puede ser cambiado
 en subsiguientes líneas de código.
 
 **Tratamiento de excepciones:**
-
-Manejo de excepciones en python.
+* Manejo de excepciones en python.
 ```python
 try:
   numero1 = input("Numero 1")
@@ -163,7 +162,7 @@ cual se quiere manejar la excepción, y catch para definir el código que debe
 ejecutarse si la excepción se ocurre.
 
 
-Manejo de excepciones en processing
+* Manejo de excepciones en processing
 ```processing
 BufferedReader reader;
 String line;
@@ -199,6 +198,20 @@ ser de ayuda para el lector del código fuente, sin embargo su agregado
 no produce ningún impacto a nivel ejecución lógico del programa ya que su
 definición misma le indica al intérprete que no debe ser ejecutada como parte del programa.
 
+* Comentarios en python
+```python
+# Comentario para una sola lina
+contador = 0  # inicializa variable contador
+
+"""
+Esto es un Comentario de muchas lineas
+generalemte se utillizan como docstrings
+de las funciones como una minuma ayuda de que parametros recibe y 
+que parametros retorna...
+"""
+```
+
+* COmentarios en processing
 En Processing los comentarios funcionan de la misma manera y se pueden incluir de tres formas: 
 ```processing
 // para comentar el resto de la linea.
