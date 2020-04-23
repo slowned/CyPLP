@@ -84,7 +84,7 @@ print(f"Cantidad de numeros impares: {impares}")  # linea 12
 # FIN PROGRAMA
 ```
 
-####Indentación:
+#### Indentación
 Dentro del lenguaje Python deben agregarse espacios en blanco (4) al
 comienzo de una línea lógica (línea 6), agrupando así un conjunto
 de sentencias (líneas 7 y 8 o líneas 9 y 10). 
@@ -126,7 +126,7 @@ line(80, 20, 20, 80);
 
 
 
-####Declaración de variables:
+#### Declaración de variables
 Python no aplica esta característica al ser un lenguaje dinámicamente tipado,
 es decir, que una variable puede cambiar su tipo de dato almacenado sin restricción.
 No hay una sintaxis definida para tal característica.
@@ -137,7 +137,7 @@ En Processing es fuertemente tipado, demás, el tipado es estático,
 una vez que se le asigna un tipo a una variable no puede ser cambiado
 en subsiguientes líneas de código.
 
-####Tratamiento de excepciones:
+#### Tratamiento de excepciones
 * Manejo de excepciones en python.
 ```python
 try:
@@ -192,7 +192,7 @@ void draw() {
 ```
 
 
-####Comentarios
+#### Comentarios
 Dentro del lenguaje Python simplemente tendrán significado semántico pudiendo
 ser de ayuda para el lector del código fuente, sin embargo su agregado
 no produce ningún impacto a nivel ejecución lógico del programa ya que su
@@ -226,7 +226,7 @@ En Processing los comentarios funcionan de la misma manera y se pueden incluir d
 */
 ```
 
-####Expresiones condicionales (IF)
+#### Expresiones condicionales (IF)
 En **Python** se evalúan tanto los operadores como operandos involucrados en la sentencia,
 tomando un camino u otro según el resultado lógico obtenido.
 Su impacto puede apreciarse en ambas semánticas tal como vimos con
