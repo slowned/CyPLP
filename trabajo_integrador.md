@@ -21,6 +21,7 @@
 
 ******
 
+--------------------------
 **A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
 de los lenguajes asignados funcamentando cada uno con ejemplos de código.**
 
