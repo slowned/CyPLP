@@ -19,6 +19,7 @@
 * Processing: a programming handbook for visual designers and artists, de Casey Reas y Ben Fry - The MIT Press
 * Programming 101: The How and Why of Programming Revealed Using the Processing Programming Language, de Jeanine Meyer - Apress
 
+******
 
 **A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
 de los lenguajes asignados funcamentando cada uno con ejemplos de código.**
@@ -96,13 +97,23 @@ def mousePressed()
 
 
 #### Claridad en los bindings
- 
-• Confiabilidad
+#### Confiabilidad
+#### Soporte
+#### Abstracción 
+#### Ortogonalidad 
+Se refiere al significado de las palabras reservadas o simbolos.
+Si una palabra reservada siempre tiene el mismo significado independientemente del
+contexto en que se use el lenguaje tiene una mayor ortogonalidad.
+Un ejemplo es el signicado de "+" si siempre representa la suma aritimetica es ortogonal,
+pero si representa a la suma para variables numéricas y concatenación para strings entonces
+es menos ortogonal.
+Un lenguaje con caracteristicas ortogonales, nos da la facilidad de aprenderlo mas rapido, ya que existen menos excepciones y casos
+especiales para tener en cuenta
+* Ortogonalidad en Python.
+**Python** y **Processing** provee una gran cantidad de palabras reservadas que nos permite utilizarlas en cualquier momento
+y siempre tener el mismo resultado, aunque posee algunas excepciones como en caso mencionado con el caracter "+"
 
-• Soporte
-• Abstracción 
-• Ortogonalidad 
-• Eficiencia
+#### Eficiencia
 
 **B. Defina y compare diferentes aspectos de la sintaxis que Ud. considere. Ejemplifique.**
 
@@ -227,9 +238,6 @@ line(80, 20, 20, 80);
 ```
 
 
-
-
-#### Declaración de variables
 Python no aplica esta característica al ser un lenguaje dinámicamente tipado,
 es decir, que una variable puede cambiar su tipo de dato almacenado sin restricción.
 No hay una sintaxis definida para tal característica.
@@ -293,7 +301,6 @@ void draw() {
   }
 }
 ```
-
 
 #### Comentarios
 Dentro del lenguaje Python simplemente tendrán significado semántico pudiendo
