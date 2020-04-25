@@ -98,9 +98,62 @@ def mousePressed()
 
 
 #### Claridad en los bindings
+* **Python**
+Acorde a lo mencionado en el punto anterior acerca de las reglas sobre las que se basa el lenguaje,
+en su definición no hay complejidad operativa que conlleve al programador a cometer errores en la escritura de sus programas.
+Dando como ejemplo las operaciones aritméticas la escritura del programa es aún clara
+para los casos donde se construyen operaciones complejas. En este mismo sentido,
+la interpretación de los programas se realizan de forma sencilla procesando de izquierda a derecha
+teniendo en cuenta la prioridad de operadores.
+Además de esto para distintos “tipos” de datos pueden utilizarse los mismos símbolos del lenguaje pero
+con diferente fin, siendo de fácil entendimiento, como lo es el uso de “+” en operaciones aritméticas,
+concatenación de cadenas de texto o incremento de valores
+
+Ejemplo:
+```python
+suma = (2 + num5) * (2/(num1 * num2 * num3))
+```
+
 #### Confiabilidad
+* **Python**
+Siendo un lenguaje interpretado, la detección de los errores es detectada al momento de la ejecución de las sentencias,
+el compilador se encarga de interpretar instrucción a instrucción y en caso de por ejemplo querer sumar a un valor
+numérico el valor almacenado en otra variable sin esta haber sido inicializada producirá un error. 
+Por tanto, la detección de los errores y el soporte de confiabilidad que provee el lenguaje están estrictamente
+ligados a la ejecución del programa y su correción por parte del desarrollador
+. El lenguaje provee mecanismos para poder evitar ciertos errores basando en la utilización de lo que llamamos excepciones.
+De esta forma, podríamos evitar la interrupción del programa o al menos poder realizar acciones adicionales antes de que esto suceda.
+Este soporte también debe ser implicitamente agregado por el desarrollador en cada lugar que considere podría sucederse algún inconveniente.
+Por ej: intentar abrir archivos en un directorio que el usuario ingresa para copiarlo a otra ubicación,
+podría sucederse que el archivo de origen no exista o aún el path no exista.
+Entonces en estás situaciones el desarrollador puede agregar implicitamente la “validación” de si existe el directorio/archivo,
+caso contrario informa el error y la ejecución del programa continua sin interrumpirse.
+
 #### Soporte
+**Python**
+Es administrado por la Python Software Foundation. Posee una licencia de código abierto,
+denominada Python Software Foundation License,3 que es compatible con la Licencia pública general de GNU.
+En el sitio oficial de python se encuentra disponible el codigo fuente asi como "releases" para la gran mayoría
+de los sistemas operativos: Linux, Windows, Mac OS X, y diversas versiones de UNIX.
+Alli tambien esta disponible la documentación oficial, clasificada según varios criterios:
+nivel, idioma, tipo (escrito o audiovisual)
+Además de la implementación oficial en C, que es la más ampliamente usada,
+existen otras implementaciones en otros lenguajes por ejemplo: .NET (IronPython), java (Jython), python (PyPy)
+
+
+**Processing**
+Es administrado por la Processing Foundation, que desarrolla y distribuye bajo una licencia LGPL,
+varias implementaciones de Processing en distintos lenguajes: Processing (Java), p5.js (JavaScript) y Processing.py (Python)
+El código fuente se encuentra disponible en Github y en el sitio oficial de Processing podemos descargar el ejecutable y
+al estar desarrollado en Java es multiplataforma.
+El sitio cuenta con documentación oficial y referencias a libros que ahondan en distintos aspectos del lenguaje.
+
+**Si bien hasta aquí el soporte de ambos lenguajes es similar, Python con una comunidad de usuarios mucho más grande que Processing.**
+
 #### Abstracción 
+Tanto Python como Processing tiene soporte para abstracción mediante el uso de clases abstractas,
+las cuales tienen uno o más métodos abstractos, es decir sin implementación.
+Subclases de la clase abstracta proveen la implementación de los métodos abstractos.
 #### Ortogonalidad 
 Se refiere al significado de las palabras reservadas o simbolos.
 Si una palabra reservada siempre tiene el mismo significado independientemente del
@@ -114,7 +167,6 @@ especiales para tener en cuenta
 **Python** y **Processing** provee una gran cantidad de palabras reservadas que nos permite utilizarlas en cualquier momento
 y siempre tener el mismo resultado, aunque posee algunas excepciones como en caso mencionado con el caracter "+"
 
-#### Eficiencia
 
 **B. Defina y compare diferentes aspectos de la sintaxis que Ud. considere. Ejemplifique.**
 
