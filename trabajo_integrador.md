@@ -54,7 +54,7 @@ lenguaje con mayor cantidad de palabras reservadas, así como reglas sintáctica
 como puede ser el uso de ; para finalizar la línea, llaves de apertura y cierre de bloques,
 la definición del tipo retornado por una función (void en caso de no retornar nada), entre otros.
 
-Processing.
+* **Processing.**
 ```processing
 float y = 100;
 void setup() {
@@ -80,7 +80,9 @@ void mousePressed() {
 }
 ```
 
-Python.
+<div style="page-break-after: always;"></div>
+
+* **Python.**
 ```python
 y = 100
 
