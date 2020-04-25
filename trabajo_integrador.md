@@ -111,6 +111,10 @@ concatenación de cadenas de texto o incremento de valores
 ```python
 suma = (2 + num5) * (2/(num1 * num2 * num3))
 ```
+* **Processing**
+Siendo Processing un framework para desarrollo visual o gráfico es claro que la mayor parte de las operaciones realizadas en él son a través de métodos, es decir, haciendo el llamado a funciones con un propósito específico. Pueden como cualquier otra función recibir parámetros en caso que el método lo permita y de esta forma tener sobrecarga de métodos.
+Al resumirse mayormente en la utilización de métodos o funciones la complejidad simplemente es reducida y la curva de aprendizaje de la herramienta es cómoda para quien este interesado.
+Ahora bien, no todo se realiza mediante funciones sino que es posible utilizar comparadores (mayor que, mayor o igual que, menor, igual, etc) y los mismos símbolos no son utilizados para realizar otras operaciones. Esto está acotado dado que el propósito del framework no es general sino para un ambiente de desarrollo de artes visuales.
 
 #### Confiabilidad
 * **Python**
@@ -126,6 +130,40 @@ Por ej: intentar abrir archivos en un directorio que el usuario ingresa para cop
 podría sucederse que el archivo de origen no exista o aún el path no exista.
 Entonces en estás situaciones el desarrollador puede agregar implicitamente la “validación” de si existe el directorio/archivo,
 caso contrario informa el error y la ejecución del programa continua sin interrumpirse.
+
+* **Processing**
+Al igual que Python es posible realizar de forma implícita el tratamiento de errores.
+
+```processing
+// Ejemplo
+BufferedReader reader;
+String line;
+ 
+void setup() {
+  // Open the file from the createWriter() example
+  reader = createReader("positions.txt");    
+}
+ 
+void draw() {
+  try {
+    line = reader.readLine();
+  } catch (IOException e) {
+    e.printStackTrace();
+    line = null;
+  }
+  if (line == null) {
+    // Stop reading because of an error or file is empty
+    noLoop();  
+  } else {
+    String[] pieces = split(line, TAB);
+    int x = int(pieces[0]);
+    int y = int(pieces[1]);
+    point(x, y);
+  }
+}
+```
+Se presenta aquí el tratamiento de recuperación del programa por error de lectura de archivo. Similar a lo que realiza Python, se tiene un bloque de código encerrado en una sección “try” y en “catch” la/s posible/s solución/es según el error ocurrido. Esto nos permite continuar la ejecución del programa sin detenerlo abruptamente.
+En cuanto a los tipos y su declaración, es necesario realizar esto antes de darles uso, en este aspecto el lenguaje se apoya en el soporte que brinda el lenguaje Java donde el programa al compilarse es puesto a prueba en su sintaxis y semántica para de esta forma poder descubrir los errores antes que el mismo sea ejecutado.
 
 #### Soporte
 * **Python**
