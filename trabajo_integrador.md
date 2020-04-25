@@ -147,7 +147,7 @@ El código fuente se encuentra disponible en Github y en el sitio oficial de Pro
 al estar desarrollado en Java es multiplataforma.
 El sitio cuenta con documentación oficial y referencias a libros que ahondan en distintos aspectos del lenguaje.
 
-**Si bien hasta aquí el soporte de ambos lenguajes es similar, Python con una comunidad de usuarios mucho más grande que Processing.**
+> **Si bien hasta aquí el soporte de ambos lenguajes es similar, Python con una comunidad de usuarios mucho más grande que Processing.**
 
 #### Abstracción 
 Tanto Python como Processing tiene soporte para abstracción mediante el uso de clases abstractas,
