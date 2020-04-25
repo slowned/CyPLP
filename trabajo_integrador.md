@@ -20,41 +20,20 @@
 * Programming 101: The How and Why of Programming Revealed Using the Processing Programming Language, de Jeanine Meyer - Apress
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<Enter>
+<enter>
+<enter>
+<Enter>
+<Enter>
+<Enter>
+<Enter>
+<enter>
+<enter>
+<enter>
+<enter>
+<enter>
+<enter>
+<enter>
 
 
 **A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
