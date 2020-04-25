@@ -9,8 +9,11 @@
 
 ## Lenguajes asignados
 
-* Python
-* Processing
+* **Processing** es un Framework basado en Java, orientado a diseño grafico,
+asi mismo brinda la posibilidad de crear código basado en otros lenguajes como javascript, python y ruby.
+Sin embargo es importante mencionar que en la misma documentación del framework se hace hincapié a tratar
+de no usar librerías externas al Framework puesto a la posibilidad de romper funcionalidades en el mismo.
+* **Python** es un lenguaje de programación de alto nivel, interpretado, de propósito general.
 
 ### Bibliografía utilizada
 
@@ -23,14 +26,7 @@
 
 <div style="page-break-after: always;"></div>
 
-**A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
-de los lenguajes asignados funcamentando cada uno con ejemplos de código.**
-
-* **Processing** es un Framework basado en Java, orientado a diseño grafico,
-asi mismo brinda la posibilidad de crear código basado en otros lenguajes como javascript, python y ruby.
-Sin embargo es importante mencionar que en la misma documentación del framework se hace hincapié a tratar
-de no usar librerías externas al Framework puesto a la posibilidad de romper funcionalidades en el mismo.
-* **Python** es un lenguaje de programación de alto nivel, interpretado, de propósito general.
+**A)**
 
 #### Simplicidad y legibilidad.
   Python hace hincapié en la legibilidad del código, se siguen reglas de PEP8 para que todos escribamos de la misma manera.
@@ -140,29 +136,12 @@ Al igual que Python es posible realizar de forma implícita el tratamiento de er
 
 ```processing
 // Ejemplo
-BufferedReader reader;
-String line;
- 
-void setup() {
-  // Open the file from the createWriter() example
-  reader = createReader("positions.txt");    
-}
- 
 void draw() {
   try {
     line = reader.readLine();
   } catch (IOException e) {
     e.printStackTrace();
     line = null;
-  }
-  if (line == null) {
-    // Stop reading because of an error or file is empty
-    noLoop();  
-  } else {
-    String[] pieces = split(line, TAB);
-    int x = int(pieces[0]);
-    int y = int(pieces[1]);
-    point(x, y);
   }
 }
 ```
@@ -208,7 +187,7 @@ especiales para tener en cuenta
 y siempre tener el mismo resultado, aunque posee algunas excepciones como en caso mencionado con el caracter "+"
 
 
-**B. Defina y compare diferentes aspectos de la sintaxis que Ud. considere. Ejemplifique.**
+**B)**
 
 A continuacion vamos a comparar los tipos de sintaxis entre 
 __Python__ y __processing__ utilizando de ejmeplo una iteracion, donde
@@ -246,8 +225,6 @@ variable de inicio. La condicion siempre se encuentra entre parentesis
 y el bloque de codigo entre llaves **{ bloque }**
 al loop 
 
-
-
 **Tipos de sintaxis:**
 * Abstracta: Mismas estructuras, ambos lenguajes tienen la misma
 estructura **for** condicion bloque.
@@ -260,9 +237,7 @@ es necesario definirle el tipo de la variable mientras que en python no
 mas el primer ejemplo donde vemos que el bloque for se itera dentro de un rango,
 mientras que en el segundo se depende de una condicion de corte, incremento del indice.
 
-
-**C. Enuncie y compare distintos aspectos semánticos (tanto de la semántica estática y dinámica)
-de cada uno de los lenguajes asignados.**
+**C)**
 
 Analizaremos los siguientes puntos desde la perspectiva semántica estática y dinámica,
 recurriendo a ejemplos para brindar mayor entendimiento de lo evaluado.
@@ -330,7 +305,6 @@ line(80, 20, 20, 80);
 }
 ```
 
-
 Python no aplica esta característica al ser un lenguaje dinámicamente tipado,
 es decir, que una variable puede cambiar su tipo de dato almacenado sin restricción.
 No hay una sintaxis definida para tal característica.
@@ -365,32 +339,14 @@ En Processing también utiliza try para definir el bloque de código dentro del
 cual se quiere manejar la excepción, y catch para definir el código que debe
 ejecutarse si la excepción se ocurre.
 
-
 * Manejo de excepciones en processing
 ```processing
-BufferedReader reader;
-String line;
- 
-void setup() {
-  // Open the file from the createWriter() example
-  reader = createReader("positions.txt");    
-}
- 
 void draw() {
   try {
     line = reader.readLine();
   } catch (IOException e) {
     e.printStackTrace();
     line = null;
-  }
-  if (line == null) {
-    // Stop reading because of an error or file is empty
-    noLoop();  
-  } else {
-    String[] pieces = split(line, TAB);
-    int x = int(pieces[0]);
-    int y = int(pieces[1]);
-    point(x, y);
   }
 }
 ```
@@ -409,12 +365,11 @@ contador = 0  # inicializa variable contador
 """
 Esto es un Comentario de muchas lineas
 generalemte se utillizan como docstrings
-de las funciones como una minuma ayuda de que parametros recibe y 
-que parametros retorna...
+de las funciones como una minima ayuda de que parametros recibe y que parametros retorna...
 """
 ```
 
-* COmentarios en processing
+* Comentarios en processing
 En Processing los comentarios funcionan de la misma manera y se pueden incluir de tres formas: 
 ```processing
 // para comentar el resto de la linea.
