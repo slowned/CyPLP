@@ -1,8 +1,5 @@
 
 # CONCEPTOS Y PARADIGMAS DE LENGUAJES DE PROGRAMACION
----
-## trabajo integrador 2020
----
 
 
 ## Integrantes del grupo
