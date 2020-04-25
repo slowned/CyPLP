@@ -19,22 +19,7 @@
 * Processing: a programming handbook for visual designers and artists, de Casey Reas y Ben Fry - The MIT Press
 * Programming 101: The How and Why of Programming Revealed Using the Processing Programming Language, de Jeanine Meyer - Apress
 
-
-<Enter>
-<enter>
-<enter>
-<Enter>
-<Enter>
-<Enter>
-<Enter>
-<enter>
-<enter>
-<enter>
-<enter>
-<enter>
-<enter>
-<enter>
-
+<div style="page-break-after: always;"></div>
 
 **A. Enuncie y compare distintas caracteristicas (o criterios de evaluación) de cada uno
 de los lenguajes asignados funcamentando cada uno con ejemplos de código.**
