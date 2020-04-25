@@ -1,6 +1,4 @@
-
-# CONCEPTOS Y PARADIGMAS DE LENGUAJES DE PROGRAMACION
-
+# Conceptos y paradigmas de lenguajes de programacion
 
 ## Integrantes del grupo
 
