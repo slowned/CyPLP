@@ -109,7 +109,6 @@ Además de esto para distintos “tipos” de datos pueden utilizarse los mismos
 con diferente fin, siendo de fácil entendimiento, como lo es el uso de “+” en operaciones aritméticas,
 concatenación de cadenas de texto o incremento de valores
 
-Ejemplo:
 ```python
 suma = (2 + num5) * (2/(num1 * num2 * num3))
 ```
@@ -130,7 +129,7 @@ Entonces en estás situaciones el desarrollador puede agregar implicitamente la 
 caso contrario informa el error y la ejecución del programa continua sin interrumpirse.
 
 #### Soporte
-**Python**
+* **Python**
 Es administrado por la Python Software Foundation. Posee una licencia de código abierto,
 denominada Python Software Foundation License,3 que es compatible con la Licencia pública general de GNU.
 En el sitio oficial de python se encuentra disponible el codigo fuente asi como "releases" para la gran mayoría
@@ -141,7 +140,7 @@ Además de la implementación oficial en C, que es la más ampliamente usada,
 existen otras implementaciones en otros lenguajes por ejemplo: .NET (IronPython), java (Jython), python (PyPy)
 
 
-**Processing**
+* **Processing**
 Es administrado por la Processing Foundation, que desarrolla y distribuye bajo una licencia LGPL,
 varias implementaciones de Processing en distintos lenguajes: Processing (Java), p5.js (JavaScript) y Processing.py (Python)
 El código fuente se encuentra disponible en Github y en el sitio oficial de Processing podemos descargar el ejecutable y
