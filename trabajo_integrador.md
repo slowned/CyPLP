@@ -1,4 +1,4 @@
-# Conceptos y paradigmas de lenguajes de programacion
+# Conceptos y paradigmas de lenguajes de programación
 
 ## Integrantes del grupo
 
